@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+	
+    int X,T,i=0;
+    cout<<"Enter the no. of days : ";
+    cin>>X;
+    while(i!=X){
+    cout<<"Hi guys :";
+    cin>>T;
+    if(T<2000){
+        cout<<"N0"<<endl;
+    }
+    else{
+        cout<<"Yes"<<endl;
+    }
+    i++;
+}
+	return 0;
+}
